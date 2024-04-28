@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 img = np.zeros((100,400),dtype='uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img,'VENKATA RATHNAM',(40,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img,'SANTHOSH',(40,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img)
 plt.axis('off')
 
